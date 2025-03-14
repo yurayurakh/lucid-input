@@ -1,0 +1,50 @@
+.formula-tag {
+    display: inline-flex;
+    align-items: center;
+    background-color: #f0f5ff;
+    border: 1px solid #d0e0ff;
+    border-radius: 4px;
+    padding: 3px 8px;
+    margin: 2px 0;
+    position: relative;
+    transition: all 0.15s ease;
+    cursor: default;
+}
+
+.formula-tag:hover {
+    background-color: #e5edff;
+}
+
+.tag-content {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.tag-name {
+    font-weight: 500;
+    color: #2b5adb;
+    font-size: 14px;
+}
+
+.tag-dropdown-toggle {
+    background: none;
+    border: none;
+    color: #6b7280;
+    cursor: pointer;
+    font-size: 10px;
+    padding: 0;
+    margin-left: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.15s ease;
+}
+
+.tag-dropdown-toggle:hover {
+    color: #2b5adb;
+}
+
+.formula-tag-hover {
+    box-shadow: 0 0 0 2px rgba(43, 90, 219, 0.3);
+}

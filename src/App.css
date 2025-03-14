@@ -1,0 +1,87 @@
+.App {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+        Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    color: #111827;
+    margin-bottom: 24px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.formula-container {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.result-display {
+    margin-top: 20px;
+    padding: 16px;
+    border: 1px solid #e5e7eb;
+    border-radius: 4px;
+    background-color: #f9fafb;
+}
+
+.result-display h2 {
+    margin-top: 0;
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: #1f2937;
+}
+
+.result-value {
+    font-size: 24px;
+    font-weight: 500;
+    color: #111827;
+}
+
+.error-message {
+    color: #ef4444;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.info-text {
+    color: #6b7280;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+button {
+    background-color: #3b82f6;
+    color: white;
+    font-weight: 500;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 8px;
+}
+
+button:hover {
+    background-color: #2563eb;
+}
+
+button.secondary {
+    background-color: #9ca3af;
+}
+
+button.secondary:hover {
+    background-color: #6b7280;
+}
+
+button.clear {
+    background-color: transparent;
+    color: #6b7280;
+    border: 1px solid #d1d5db;
+}
+
+button.clear:hover {
+    background-color: #f9fafb;
+    color: #4b5563;
+}

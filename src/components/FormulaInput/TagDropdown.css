@@ -1,0 +1,122 @@
+.tag-dropdown {
+    position: absolute;
+    top: calc(100% + 6px);
+    left: 0;
+    width: 220px;
+    background-color: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    z-index: 20;
+    animation: fadeIn 0.15s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.tag-dropdown-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 12px;
+    border-bottom: 1px solid #f3f4f6;
+    font-weight: 600;
+    color: #111827;
+    font-size: 14px;
+}
+
+.tag-dropdown-header .close-button {
+    background: none;
+    border: none;
+    color: #6b7280;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    transition: all 0.15s ease;
+}
+
+.tag-dropdown-header .close-button:hover {
+    background-color: #f3f4f6;
+    color: #111827;
+}
+
+.tag-dropdown-content {
+    padding: 10px 12px;
+}
+
+.tag-info-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.tag-info-row:last-child {
+    margin-bottom: 0;
+}
+
+.tag-info-row span:first-child {
+    color: #6b7280;
+}
+
+.tag-info-row span:last-child {
+    font-weight: 500;
+    color: #111827;
+    max-width: 140px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: right;
+}
+
+.tag-dropdown-actions {
+    padding: 10px 12px;
+    border-top: 1px solid #f3f4f6;
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+.edit-button {
+    background-color: #f3f4f6;
+    color: #111827;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 12px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background-color 0.15s ease;
+}
+
+.edit-button:hover {
+    background-color: #e5e7eb;
+}
+
+.remove-button {
+    background-color: #ef4444;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 12px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background-color 0.15s ease;
+}
+
+.remove-button:hover {
+    background-color: #dc2626;
+}
